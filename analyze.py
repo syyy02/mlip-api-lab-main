@@ -3,6 +3,8 @@ from msrest.authentication import CognitiveServicesCredentials
 from azure.cognitiveservices.vision.computervision.models import OperationStatusCodes
 import time
 import os
+from dotenv import load_dotenv
+
 
 
 load_dotenv()
